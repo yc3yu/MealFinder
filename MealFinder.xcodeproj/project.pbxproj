@@ -51,6 +51,7 @@
 		643C9E762C34C175004FEB83 /* MealFinder */ = {
 			isa = PBXGroup;
 			children = (
+				643C9E862C34E0A9004FEB83 /* Services */,
 				643C9E772C34C175004FEB83 /* MealFinderApp.swift */,
 				643C9E792C34C175004FEB83 /* ContentView.swift */,
 				643C9E7B2C34C177004FEB83 /* Assets.xcassets */,
@@ -65,6 +66,21 @@
 				643C9E7E2C34C177004FEB83 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		643C9E862C34E0A9004FEB83 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				643C9E872C34E0B1004FEB83 /* Networking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		643C9E872C34E0B1004FEB83 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
